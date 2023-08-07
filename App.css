@@ -1,0 +1,35 @@
+.App {
+  text-align: center;
+  margin-top: 100px;
+}
+
+input {
+  padding: 8px;
+  margin-right: 10px;
+}
+
+button {
+  background-color: red;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: lightcoral;
+  cursor: not-allowed;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+li {
+  background-color: #f0f0f0;
+  padding: 8px 16px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
